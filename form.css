@@ -1,0 +1,61 @@
+.mainContainer{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    width:495px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#studentName{
+    width: 495px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#studentName2{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 0%;
+    /* margin-right: auto; */
+}
+
+/* #textbox1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-left: auto; */
+    /* margin-right: 0%; */
+*/
+
+#fathersName{
+    width: 495px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fathersName2{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 0%;
+}
+

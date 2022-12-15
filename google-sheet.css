@@ -1,0 +1,28 @@
+.menu-icon-bar{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+#font-family-selector{
+    height: 30px;
+    font-size: 14px;
+    width: 100px;
+}
+
+#font-size-selector{
+    height: 30px;
+    font-size: 18px;
+    width: 100px;
+}
+
+option{
+    font-size: 30px;
+}
+
+#myElements{
+    width: 50%;
+    height: 100px;
+    margin-top: 50px;
+}
+

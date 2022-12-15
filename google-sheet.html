@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="google-sheet.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+
+</head>
+<body>
+    <div id="main-container">
+        <div id="menu-icon-bar">
+            <select id="font-family-selector" class="input" onchange="changeFontStyle(this);">
+                <option style="font-family: Noto Sans;" value="Noto Sans" selected="selected">Noto Sans</option>
+                <option style="font-family: Arial;" value="Arial" selected="selected">Arial</option>
+                <option style="font-family: Calibri;" value="Calibri" selected="selected">Calibri</option>
+                <option style="font-family: Comic Sans MS;" value="Comic Sans MS" selected="selected">Comic Sans MS</option>
+                <option style="font-family: Courier New;" value="Courier New" selected="selected">Courier New</option>
+                <option style="font-family: Impact;" value="Impact" selected="selected">Impact</option>
+                <option style="font-family: Garamond;" value="Garamond" selected="selected">Garamond</option>
+                <option style="font-family: Lato;" value="Lato" selected="selected">Lato</option>
+                <option style="font-family: Open ans;" value="Open ans" selected="selected">Open ans</option>
+                <option style="font-family: Palatino;" value="Pala" selected="selected">Pala</option>
+                <option style="font-family: Verdana;" value="Verdana" selected="selected">Verdana</option>
+            </select>
+
+            <select id="font-size-selector" class="output" onchange="changeFontSize(this);">
+
+                <option>xx-small</option>
+                <option>x-small</option>
+                <option>small</option>
+                <option>medium</option>
+                <option>large</option>
+                <option>x-large</option>
+                <option>xx-large</option>
+                <option>100%</option>
+                <option>250%</option>
+                <option>2cm</option>
+                <option>100px</option>
+
+
+            
+                <!-- <option value="x-small" selected="selected">7</option>
+                <option value="small" selected="selected">8</option>
+                <option value="medium" selected="selected">9</option>
+                <option value="large" selected="selected">10</option>
+                <option value="x-large" selected="selected">11</option>
+                <option value="xx-large" selected="selected">12</option>
+                <option value="100%" selected="selected">13</option>
+                <option value="250%" selected="selected">14</option>
+                <option value="2cm" selected="selected">15</option>
+                <option value="100px" selected="selected">16</option> --> -->
+
+            </select>
+
+        </div>
+        <div><input type="text" name="" id="myElements"></div>
+        <br>
+
+    </div>
+    <script src="./google-sheet.js"></script>
+</body>
+</html>
