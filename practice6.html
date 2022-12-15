@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Page</title>
+    <style>
+        #maincontent{
+            height: 600px;
+            width: 1000px;
+            border: 1px solid rgb(32, 30, 30);
+            margin: auto;
+            background-color: rgb(28, 25, 25);
+        }
+
+        #content1{
+            height: 580px;
+            width: 300px;
+            border: 1px solid black;
+            background-color: black;
+            box-shadow: 0px 0px 10px 10px white;
+            border-radius: 30px;
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+        #content1_1{
+            height: 30px;
+            width: 300px;
+            margin-top: 2px;
+            margin-left: 0px;
+            display: flex;
+        }
+
+        #top1{
+            height: 14px;
+            width: 26px;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: 8px;
+            margin-left: 12px;
+        }
+
+        #t1{
+            font-size: 15px;
+            margin-top: 0px;
+        }
+
+        #top2{
+            height: 14px;
+            width: 26px;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: 8px;
+            margin-left: 142px;
+        }
+
+        #signal1{
+            height: 5px;
+            width: 5px;
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 2px;
+        }
+
+        #signal2{
+            height: 7px;
+            width: 5px;
+            background-color: white;
+            margin-top: -7px;
+            margin-left: 8px;
+        }
+
+        #signal3{
+            height: 10px;
+            width: 5px;
+            background-color: gray;
+            margin-top: -10px;
+            margin-left: 14px;
+        }
+        
+        #signal4{
+            height: 13px;
+            width: 5px;
+            background-color: gray;
+            margin-top: -13px;
+            margin-left: 20px;
+        }
+
+        #top3{
+            height: 14px;
+            width: 26px;
+            border: 1px solid black;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        #top4{
+            height: 14px;
+            width: 26px;
+            border: 1px solid black;
+            background-color: white;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        #content1_2{
+            height: 165px;
+            width: 300px;
+            border: 1px solid black;
+            margin-top: 0px;
+            text-align: right;
+        }
+
+        p{
+            font-size: 70px;
+            color: white;
+        }
+
+        #content1_3{
+            height: 300px;
+            width: 300px;
+            margin-top: 0px;
+            margin-left: 0px;
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+        }
+
+        #g1,#g2,#g3,#g4,#g5{
+            height: 58px;
+            width: 300px;
+            margin-top: 0px;
+            margin-left: 0px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        #content2{
+            height: 600px;
+            width: 500px;
+            margin-top: -580px;
+            margin-left: 450px;
+            background-color:rgb(28, 25, 25);;
+        }
+
+        #box1,#box2,#box3{
+            height: 55px;
+            width: 58px;
+            background-color: gray;
+            border-radius: 100px;
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        #box4{
+            height: 55px;
+            width: 58px;
+            background-color: yellow;
+            border-radius: 100px;
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            text-align: center;
+            font-size: 15px;
+        }
+
+       #text1{
+        font-size: 80px;
+        color: white;
+        margin-top: 50px;
+        margin-left: 2px;
+        
+       }
+
+       #text2{
+        font-size: 80px;
+        color: white;
+        margin-top: -80px;
+        margin-left: 2px;
+       }
+
+       #text3{
+        font-size: 80px;
+        color: white;
+        margin-top: -50px;
+        margin-left: 2px;
+       }
+
+       #text4{
+        font-size: 80px;
+        color: white;
+        margin-top: -40px;
+        margin-left: 2px;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="maincontent">
+
+        <div id="content1">
+            <div id="content1_1">
+                <div id="top1">
+                    <p id="t1" style="color: white;">6:15</p>
+                </div>
+                <div id="top2">
+                    <div id="signal1"></div>
+                    <div id="signal2"></div>
+                    <div id="signal3"></div>
+                    <div id="signal4"></div>
+                </div>
+                <div id="top3"></div>
+                <div id="top4"></div>
+            </div>
+
+            <div id="content1_2">
+                <p>1,337.3</p>
+            </div>
+            <div id="content1_3">
+                <div id="g1">
+                    <div id="box1"><h3>AC</h3></div>
+                    <div id="box2"><h3>+</h3></div>
+                    <div id="box3"><h3>%</h3></div>
+                    <div id="box4"><h3>/</h3></div>
+                </div>
+
+                <div id="g2">
+                    <div id="box1"><h3>7</h3></div>
+                    <div id="box2"><h3>8</h3></div>
+                    <div id="box3"><h3>9</h3></div>
+                    <div id="box4"><h3>x</h3></div>
+                </div>
+
+                <div id="g3">
+                    <div id="box1"><h3>4</h3></div>
+                    <div id="box2"><h3>5</h3></div>
+                    <div id="box3"><h3>6</h3></div>
+                    <div id="box4"><h3>-</h3></div>
+                </div>
+
+                <div id="g4">
+                    <div id="box1"><h3>1</h3></div>
+                    <div id="box2"><h3>2</h3></div>
+                    <div id="box3"><h3>3</h3></div>
+                    <div id="box4"><h3>+</h3></div>
+                </div>
+
+                <div id="g5">
+                    <div id="box1"><h3>0</h3></div>
+                    <div id="box2"><h3>#</h3></div>
+                    <div id="box3"><h3>.</h3></div>
+                    <div id="box4"><h3>=</h3></div>
+                </div>
+            </div>
+        </div>
+        <div id="content2">
+            <p id="text1" style="font-family: calibri;">Build an</p>
+            <h1 id="text2" style="font-family: bahnschrift;">iPhone</h1>
+            <h1 id="text3" style="font-family: bahnschrift;">Calculator</h1>
+            <p id="text4" style="font-family: bahnschrift;">in  <span style="color: yellow;">JavaScript</span></p>
+        </div>
+    </div>
+</body>
+</html>

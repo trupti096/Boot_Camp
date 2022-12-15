@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #container{
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        table,td{
+            width: 600px;
+            height: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <td><p>(<span style="color: red;">*</span>) Required field</p></td>
+            <tr>
+                <td>Account Type<span style="color: red;">*</span></td>
+                <td><input type="radio">Personal Account<input type="radio">Business Account</td>
+            </tr>
+            <tr>
+                <td>First Name<span style="color: red">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last Name<span  style="color: red">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Country/Region</td>
+                <td><select name="text" id="">
+                    <option value="">India</option>
+                    <option value="">Pakisthan</option>
+                    <option value="">Japan</option>
+                    <option value="">Chaina</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Street Address<span style="color: red">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Street Address2</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>City<span style="color: red;">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State/Province<span style="color: red;">*</span></td>
+                <td><select name="text" id="">
+                    <option value="">Maharastra</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Odisha</option>
+                    <option value="">Bihar</option>
+                </td>
+            </tr>
+            <tr>
+                <td>ZIP/Postal Code<span style="color: red;">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Phone Number<span style="color: red;">*</span></td>
+                <td><label for="PhoneNumber">Only used for questions related to your queries<input type="text"></label></td>
+            </tr>
+    
+        </table>
+    </div>
+
+    
+</body>
+</html>

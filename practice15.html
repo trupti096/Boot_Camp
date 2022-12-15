@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html>
+   <head>
+    <style>
+        @font-face {
+            font-family: "quicksandregular";
+            src: url("quicksand-regular-webfont.woff2") 
+              format("woff2"), 
+              url("quicksand-regular-webfont.woff")
+              format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+  
+        @font-face {
+            font-family: "quicksandbold";
+            src: url("quicksand-bold-webfont.woff2") 
+              format("woff2"),
+              url("quicksand-bold-webfont.woff") 
+              format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+  
+        @font-face {
+            font-family: "quicksanditalic";
+            src: url("quicksand-italic-webfont.woff2") 
+              format("woff2"), 
+              url("quicksand-italic-webfont.woff") 
+              format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+  
+        .first {
+            font-family: "quicksandregular";
+            color: green;
+        }
+  
+        .second {
+            font-family: "quicksandbold";
+            color: green;
+        }
+  
+        .third {
+            font-family: "quicksanditalic";
+            color: green;
+        }
+    </style>
+    </head>
+    <body>
+        geeks for geeks
+        <div class="first">geeks for geeks</div>
+        <div class="second">geeks for geeks</div>
+        <div class="third">geeks for geeks</div>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #myElement {
+            border:1px solid #CCC;
+            width:100px;
+            height:100px;
+        }
+    </style>
+    <meta charset="utf-8">
+</head> 
+<body>
+    <h2>Change Font Family of HTML Element in JavaScript</h2>
+    <div id="myElement">Hello World!</div>
+    <br>
+    <button type="button" onclick="changeStyle()">Click Me</button>
+    <script>
+    function changeStyle(){
+        var element = document.getElementById("myElement");
+        element.style.fontFamily = "monospace";
+    }
+    </script>
+</body>
+</html>
