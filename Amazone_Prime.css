@@ -1,0 +1,94 @@
+#maincontent{
+    height: 600px;
+    width: 100%;
+    position: fixed;
+}
+
+#content1{
+    height: 600px;
+    width: 45%;
+}
+
+#content1_1{
+    height: 400px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#text1{
+    font-size: 40px;
+    font-style: helvetica;
+    font-family: 'Lucida Sans';
+    margin-top: 0px;
+}
+
+#text2{
+    font-size: 25px;
+}
+
+#content2{
+    height: 555px;
+    width: 50%;
+    margin-left: 550px;
+    margin-top: -620px;
+    display: grid;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+#grid1,#grid2,#grid3,#grid4,#grid5,#grid6,#grid7,#grid8,#grid9,#grid10,#grid11,#grid12{
+    height: 134px;
+    width: 209px;
+    margin-top: 0px;
+}
+
+#grid1:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid2:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid3:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid4:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid5:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid6:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid7:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid8:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid9:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid10:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid11:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid12:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+}
+#grid1,#grid2,#grid3,#grid4,#grid5,#grid6,#grid7,#grid8,#grid9,#grid10,#grid11,#grid12{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+img{
+    height: 134px;
+    width: 209px;
+}
